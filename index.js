@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = "!as";
 
-client.login("NDkzMDA5MDE5ODA4Nzc2MjA0.DoevXg.jvyp4WOyZ0elE0MMX_0BGkkF98o");
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("Connexion en cours ...");

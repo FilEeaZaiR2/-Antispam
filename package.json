@@ -1,0 +1,17 @@
+{
+  "name": "tc",
+  "version": "1.0.0",
+  "description": "דс〤 | Anti-spam : Bot by Pamort58",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs-extra": "^7.0.0",
+    "opusscript": "0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pamort58",
+  "license": "MIT"
+}

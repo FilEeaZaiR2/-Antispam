@@ -91,4 +91,14 @@ client.on(`message`, message =>{
         }
         message.delete()
     }
-})
+});
+
+client.on('messageReactionAdd', (reaction, user) => {
+    if(reaction.emoji.ID === ":logoLoL:543144782810316830") {
+        if(reaction.message.channel.id === "363784426506682369") {
+            user.send("**Vous avez accepté le réglement !**")
+            const giveRole = reaction.message.guild.roles.find(r => r.id === "543150172985622559");
+            reaction.message.guild.member(user).addRole(giveRole);
+        };
+    };
+});
